@@ -77,6 +77,10 @@ After running a container, access `localhost:4649` by your web browser.
 For more information on Millefy itself, please refer to [Millefy](https://github.com/yuifu/millefy)
 
 
+### Examples
+[test_millefy.ipynb](https://github.com/yuifu/datascience-notebook-millefy/examples/test_millefy.ipynb)
+
+
 ## License
 
 Copyright (c) 2018 Haruka Ozaki Released under the MIT license
