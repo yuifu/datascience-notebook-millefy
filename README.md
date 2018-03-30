@@ -78,7 +78,7 @@ For more information on Millefy itself, please refer to [Millefy](https://github
 
 
 ### Examples
-[test_millefy.ipynb](https://github.com/yuifu/datascience-notebook-millefy/examples/test_millefy.ipynb)
+[test_millefy.ipynb](https://github.com/yuifu/datascience-notebook-millefy/blob/master/examples/test_millefy.ipynb)
 
 
 ## License
