@@ -1,4 +1,4 @@
-# <img src="img/logo.svg" width="30%" align="right" /> `datascience-notebook-millefy`
+# <img src="assets/logo.svg" width="30%" align="right" /> `datascience-notebook-millefy`
 ## What's this?
 `datascience-notebook-millefy` is a Docker image for running [Millefy](https://github.com/yuifu/millefy) on [JupyterLab](https://github.com/jupyterlab/jupyterlab). Millefy provides genome browser-like visualization of single-cell RNA sequensing (scRNA-seq) datasets.
 
