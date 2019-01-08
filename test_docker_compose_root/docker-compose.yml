@@ -1,7 +1,7 @@
 version: '2'
 services:
   jupyter:
-    image: yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.4
+    image: yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.7
     container_name: harukao_datascience_notebook_millefy_00
     environment:
       JUPYTER_ENABLE_LAB: 1
