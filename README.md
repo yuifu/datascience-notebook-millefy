@@ -1,6 +1,6 @@
-# `datascience-notebook-millefy`
+# <img src="img/logo.svg" width="30%" align="right" /> `datascience-notebook-millefy`
 ## What's this?
-A Docker image for running [Millefy](https://github.com/yuifu/millefy) on [JupyterLab](https://github.com/jupyterlab/jupyterlab).
+`datascience-notebook-millefy` is a Docker image for running [Millefy](https://github.com/yuifu/millefy) on [JupyterLab](https://github.com/jupyterlab/jupyterlab). Millefy provides genome browser-like visualization of single-cell RNA sequensing (scRNA-seq) datasets.
 
 DockerHub: https://hub.docker.com/r/yuifu/datascience-notebook-millefy/
 
