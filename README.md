@@ -23,7 +23,7 @@ docker build -t yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.7 .
 ### Pull
 
 ```
-docker pull yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.7 .
+docker pull yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.7
 ```
 
 ## How to use
