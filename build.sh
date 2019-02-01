@@ -3,4 +3,4 @@
 
 cd Dockerfile
 
-docker build -t yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.7 .
+docker build -t yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.8 .

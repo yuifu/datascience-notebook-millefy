@@ -18,5 +18,5 @@ RUN Rscript -e "source(\"https://bioconductor.org/biocLite.R\"); biocLite(c('Rsa
 
 RUN Rscript -e "install.packages('viridisLite', dependencies=TRUE, repos='https://cran.ism.ac.jp/'); source(\"https://bioconductor.org/biocLite.R\"); biocLite(c('destiny'))"
 
-RUN Rscript -e "options(unzip = 'internal'); devtools::install_github(\"yuifu/millefy\")"
+RUN Rscript -e "options(unzip = 'internal'); devtools::install_github(\"yuifu/millefy\", ref='v0.1.8')"
 
