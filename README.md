@@ -32,7 +32,7 @@ docker pull yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.8
 
 ```
 docker run -d --rm -p 4649:8888 \
--v `pwd`:/home/jovyan/work \
+-v "$PWD":/home/jovyan/work \
 -e JUPYTER_ENABLE_LAB=1 \
 --user root -e NB_UID=10011 -e GRANT_SUDO=yes \
 yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.8 \
