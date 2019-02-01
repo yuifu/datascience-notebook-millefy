@@ -13,5 +13,6 @@ services:
     volumes:
       - ./:/home/jovyan/work
       - ../test_data:/home/jovyan/test_data
+      - ../examples:/home/jovyan/examples
     command: start-notebook.sh --NotebookApp.token=''
 
