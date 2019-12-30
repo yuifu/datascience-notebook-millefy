@@ -8,7 +8,7 @@ DockerHub: https://hub.docker.com/r/yuifu/datascience-notebook-millefy/
 
 ### How is it built?
 
-Millefy (version 0.1.8 was) was installed in the Docker image of [Jupyter Notebook Data Science Stack](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook) (`jupyter/datascience-notebook:c88678a1c7c9`; latest on 2018/03/30).
+Millefy (version 0.1.9 was) was installed in the Docker image of [Jupyter Notebook Data Science Stack](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook) (`jupyter/datascience-notebook:c88678a1c7c9`; latest on 2018/03/30).
 
 
 ## How to install
@@ -17,13 +17,13 @@ Millefy (version 0.1.8 was) was installed in the Docker image of [Jupyter Notebo
 
 ```
 cd Dockerfile
-docker build -t yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.8 .
+docker build -t yuifu/datascience-notebook-millefy:7a0c7325e470-v0.1.9 .
 ```
 
 ### Pull
 
 ```
-docker pull yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.8
+docker pull yuifu/datascience-notebook-millefy:7a0c7325e470-v0.1.9
 ```
 
 ## How to use
@@ -35,7 +35,7 @@ docker run -d --rm -p 4649:8888 \
 -v "$PWD":/home/jovyan/work \
 -e JUPYTER_ENABLE_LAB=1 \
 --user root -e NB_UID=10011 -e GRANT_SUDO=yes \
-yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.8 \
+yuifu/datascience-notebook-millefy:7a0c7325e470-v0.1.9 \
 start-notebook.sh --NotebookApp.token=''
 ```
 
@@ -47,7 +47,7 @@ Write `docker-compose.yml` as follows:
 version: '2'
 services:
   jupyter:
-    image: yuifu/datascience-notebook-millefy:c88678a1c7c9-v0.1.8
+    image: yuifu/datascience-notebook-millefy:7a0c7325e470-v0.1.9
     environment:
       JUPYTER_ENABLE_LAB: 1
       NB_UID: 10011
